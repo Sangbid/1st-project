@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controler">
+   <children>
+      <StackPane prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="result" prefHeight="109.0" prefWidth="399.0">
+               <font>
+                  <Font name="Book Antiqua" size="24.0" />
+               </font>
+            </Label>
+         </children></StackPane>
+      <HBox prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <ButtonBar prefHeight="50.0" prefWidth="92.0">
+              <buttons>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="7">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="8">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="9">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                <Button mnemonicParsing="false" onAction="#processOperator" text="/">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+              </buttons>
+            </ButtonBar>
+         </children>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <ButtonBar prefHeight="50.0" prefWidth="92.0">
+               <buttons>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="4">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="5">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="6">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processOperator" text="*">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </buttons>
+            </ButtonBar>
+         </children>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <ButtonBar prefHeight="50.0" prefWidth="92.0">
+               <buttons>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="3">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processOperator" text="-">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </buttons>
+            </ButtonBar>
+         </children>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <ButtonBar prefHeight="50.0" prefWidth="110.0">
+               <buttons>
+                  <Button mnemonicParsing="false" onAction="#processNumber" text="0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processOperator" text="=">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#processOperator" text="+">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </buttons>
+            </ButtonBar>
+         </children>
+      </HBox>
+   </children>
+</VBox>
